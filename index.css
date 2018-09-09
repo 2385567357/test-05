@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav{
+    height: 80px;
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(51, 51, 51);
+    position: relative;
+}
+    
+nav span{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    line-height: 70px;
+    left: 15%;
+}
+.login{
+    position: absolute;
+    right: 15%;
+}
+nav a{
+    color: white;
+    font-size: 10px;
+}
+/* **********nav结束************* */
+header{
+    width: 960px;
+    height: 320px;
+    background-color: rgb(102, 187, 51);
+    margin: 0 auto;
+    position: relative;
+}
+
+header li{
+    width: 18px;
+    height: 23px;
+    line-height: 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin-right: 1px;
+    text-align: center;
+    background-color: rgba(255, 255, 255);
+    opacity: 0.5;
+}
+
+header ol{
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+}
+header li:nth-child(2){
+    padding-top: 10px;
+    opacity: 0.8;
+}
+/* **********banner结束************* */
+.menu{
+    width: 960px;
+    height: 75px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(110, 110, 110);
+    display: flex;
+    padding-left: 150px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.menu a{
+    width: 66px;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 17px 17px 0 0;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: none;
+    color: rgb(41, 41, 41);
+    background-color: rgb(231, 230, 230);
+}
+.menu a:nth-child(1){
+    border-bottom: 1px solid white;
+    background-color: white;
+    position: relative;
+    bottom: -1px;
+}
+.content{
+    width:660px;
+    height: 420px;
+    margin: 0 auto;
+}
+.content li{
+    display: inline-block;
+    text-align: center;
+    line-height: 130px;
+    margin-top: 4px;
+    border: 1px solid rgb(109, 107, 107);
+    box-sizing: border-box;
+}
+.content li:nth-child(1),.content li:nth-child(2),.content li:nth-child(3){
+    width:216px;
+    height: 130px;
+}
+.content li:nth-child(4),.content li:nth-child(5),.content li:nth-child(6),.content li:nth-child(7){
+    width:161px;
+    height: 130px;
+}
+.content li:nth-child(8),.content li:nth-child(9),.content li:nth-child(10){
+    width:216px;
+    height: 130px;
+}
+    /* **********内容区域结束************* */
+footer{
+    height: 100px;
+    width: 960px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(102, 102, 102);
+}
